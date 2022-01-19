@@ -14,6 +14,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.id/<REPO>
+# master:gh-pages 是将 dist 目录下的内容单独指向 gh-pages 分支
 git push -f https://github.com/JoeZhangHao/my-blog.git master:gh-pages
 
 cd -

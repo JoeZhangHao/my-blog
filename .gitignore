@@ -17,3 +17,10 @@ yarn.lock
 *.njsproj
 *.sln
 *.sw?
+
+# production
+/dist
+docs/.vitepress/dist
+*.log
+es
+lib
